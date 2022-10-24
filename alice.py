@@ -71,6 +71,7 @@ def display_histogram(dict_probs):
     plt.show()
 
 #Opens and tokenize the .txt files - Alice in Wonderland
+#If needs to be used with other text, upload .txt file and change name --> file_text = open('HERE.txt', encoding='utf8')
 file_text = open('alice_text.txt', encoding='utf8')
 alice_text = file_text.read()
 alice_text = alice_text.lower()
